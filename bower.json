@@ -17,5 +17,10 @@
   ],
   "dependencies": {
     "jquery": "~2.2.0"
+  },
+  "preen": {
+    "jquery": [
+     "dist/*"
+    ]
   }
 }
