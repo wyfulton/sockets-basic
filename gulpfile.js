@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
-	mainBowerFiles =require('main-bower-files'),
-	preen = require('preen');
-
+	mainBowerFiles =require('main-bower-files')
 
 gulp.task('bower', function () {
-	preen.preen({})
+	return gulp.src(mainBowerFiles())
+		.pipe(gulp.dest('./public/dist/lib'));
 });

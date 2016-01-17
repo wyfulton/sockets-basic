@@ -16,11 +16,12 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "moment": "~2.11.1"
   },
   "preen": {
     "jquery": [
-     "dist/*"
+      "dist/*"
     ]
   }
 }
